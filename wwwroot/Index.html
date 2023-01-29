@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Grid Generator</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="spinner hidden">
+        <div class="lds-circle">
+            <div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Grid Generator</h3>
+    <form id="form">
+        <div class="form-container">
+            <div class="form-group">
+                <label for="size">Size</label>
+                <input id="size" max="1000" type="number" />
+            </div>
+            <div class="form-group">
+                <label for="rangeFrom">RangeForm</label>
+                <input id="rangeFrom" max="1000" type="number" />
+            </div>
+            <div class="form-group">
+                <label id="rangeTo">RangeTo</label>
+                <input id="rangeto" max="1000" type="number" />
+            </div>
+        </div>
+        <div class="form-group center">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

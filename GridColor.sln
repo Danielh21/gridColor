@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridColor", "GridColor.csproj", "{43AC7046-6920-4513-8162-D2178223EC21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "..\TestProject\TestProject.csproj", "{BC96DD8D-1849-483A-9678-A9AD549DB381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43AC7046-6920-4513-8162-D2178223EC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AC7046-6920-4513-8162-D2178223EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AC7046-6920-4513-8162-D2178223EC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AC7046-6920-4513-8162-D2178223EC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC96DD8D-1849-483A-9678-A9AD549DB381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC96DD8D-1849-483A-9678-A9AD549DB381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC96DD8D-1849-483A-9678-A9AD549DB381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC96DD8D-1849-483A-9678-A9AD549DB381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42DF5386-C6D7-4CD8-8C3B-EB09EAFF2801}
+	EndGlobalSection
+EndGlobal
