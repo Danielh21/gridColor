@@ -2,38 +2,61 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Grid Generator</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
 
-    <div class="spinner hidden">
+    <div id="spinner" class="spinner hidden">
         <div class="lds-circle">
             <div>
             </div>
         </div>
     </div>
 
-    <h3>Grid Generator</h3>
+    <h1>Grid Generator</h1>
     <form id="form">
         <div class="form-container">
             <div class="form-group">
                 <label for="size">Size</label>
-                <input id="size" max="1000" type="number" />
+                <input id="size" max="100" type="number" />
             </div>
             <div class="form-group">
                 <label for="rangeFrom">RangeForm</label>
-                <input id="rangeFrom" max="1000" type="number" />
+                <input id="rangeFrom" type="number" />
             </div>
             <div class="form-group">
-                <label id="rangeTo">RangeTo</label>
-                <input id="rangeto" max="1000" type="number" />
+                <label for="rangeTo">RangeTo</label>
+                <input id="rangeTo" type="number" />
             </div>
         </div>
+
+        <div class="color-test-container">
+            <div>
+                <div class="form-group">
+                    <label>Hue</label>
+                    <input id="hue-input"  type="range" min="1" max="350" value="50">
+                </div>
+                <div class="form-group">
+                    <label>Saturation</label>
+                    <input id="sat-input" type="range" min="1" max="100" value="50">
+                </div>
+            </div>
+            <div class="test-color-container">
+                <div id="test-color" class="test-color" style="background-color: hsl(50, 50%, 50%)"></div>
+            </div>
+        </div>
+
         <div class="form-group center">
             <button type="submit">Submit</button>
         </div>
     </form>
+
+
+    <div id="gridarea" class="gridarea">
+        <p class="teaser">Submit to generate grid....</p>
+    </div>
 
 
     <script src="Script.js"></script>
